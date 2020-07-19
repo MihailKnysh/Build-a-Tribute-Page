@@ -1,88 +1,104 @@
-h1, h3{
-    text-align: center;
-    color: cadetblue;
+h1,
+h3 {
+  text-align: center;
+  color: cadetblue;
 }
 
-body{
-    background-color: #e6e6ea;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #e6e6ea;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#title p{
-    font-size: 14pt;
-    margin-left: 5em;
-    margin-right: 5em;
-    text-align: justify;
+#title p {
+  font-size: 14pt;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: justify;
 }
 
-#image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-#img-caption{
-    text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
+@media screen and (max-width: 992px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-#tribute-info{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em;
-    text-align: justify;
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 70%;
+    height: auto;
+  }
 }
 
-ul{
-    list-style-position: inside;
-    font-weight: bold;
-    list-style: none;
+#img-caption {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
-ul li::before{
-    content: "✦";
+#tribute-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  text-align: justify;
 }
 
-p{
-    font-weight: normal;
+ul {
+  list-style-position: inside;
+  font-weight: bold;
+  list-style: none;
 }
 
-.pitalic{
-    font-weight: normal;
-    text-align: center;
-    font-style: italic;
+ul li::before {
+  content: "✦";
 }
 
-#quotation{
-    font-family: cursive;
-    font-size: 14pt;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-bottom: 2em;
-    text-align: justify;
+p {
+  font-weight: normal;
+}
+
+.pitalic {
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+}
+
+#quotation {
+  font-family: cursive;
+  font-size: 14pt;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 2em;
+  text-align: justify;
 }
 
 a {
-    color: #4169e1;
-    text-decoration: none;
+  color: #4169e1;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    text-decoration: underline;
+  color: red;
+  text-decoration: underline;
 }
 
-details{
-    margin-left: 3em;
+details {
+  margin-left: 3em;
 }
 
-footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(241, 192, 86);
-    color: cadetblue;
-    text-align: center;
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(241, 192, 86);
+  color: cadetblue;
+  text-align: center;
 }
