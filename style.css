@@ -23,18 +23,26 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   img {
-    max-width: 100%;
+    max-width: none;
+    width: 100%;
     height: auto;
   }
 }
 
 @media screen and (max-width: 600px) {
   img {
-    max-width: 70%;
+    max-width: none;
+    width: 100%;
     height: auto;
   }
+} */
+
+img {
+  /* max-width: none; */
+  width: 100%;
+  height: auto;
 }
 
 #img-caption {
